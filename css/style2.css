@@ -1,0 +1,57 @@
+    a {
+        text-decoration: none;
+    }
+    
+    table {
+        width: 800px;
+    }
+    
+    .btn {
+        grid-template-columns: max-content;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #e74c3c;
+        border-radius: 0.6em;
+        color: #fff;
+        cursor: pointer;
+        align-self: center;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1;
+        margin: 5px;
+        padding: 1em 2em;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'poppins', sans-serif;
+        font-weight: 700;
+        -webkit-border-radius: 0.6em;
+        -moz-border-radius: 0.6em;
+        -ms-border-radius: 0.6em;
+        -o-border-radius: 0.6em;
+    }
+    
+    .btn:hover,
+    .btn:focus {
+        outline: 0;
+    }
+    
+    .third {
+        border-color: #3498db;
+        color: #fff;
+        background-color: #33de6c;
+        /* box-shadow: 0 0 40px 40px #33de6c inset, 0 0 0 0 #33de6c;
+        transition: all 150ms ease-in-out;
+        -webkit-transition: all 150ms ease-in-out;
+        -moz-transition: all 150ms ease-in-out;
+        -ms-transition: all 150ms ease-in-out;
+        -o-transition: all 150ms ease-in-out;*/
+    }
+    
+    .btn-header {
+        padding-left: 30px;
+        flex: auto;
+    }
